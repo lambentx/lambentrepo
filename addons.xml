@@ -1,0 +1,96 @@
+<addons>
+<addon id="repository.lambentx" name="lambentx" version="1.0" provider-name="lambentx">
+	<extension point="xbmc.addon.repository" name="lambentx">
+	    <dir>
+		    <info compressed="false">https://raw.githubusercontent.com/nostromorepo/install/master/plugins/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/nostromorepo/install/master/plugins/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/nostromorepo/install/master/plugins</datadir>
+        </dir>
+		 <dir>
+		    <info compressed="false">https://raw.githubusercontent.com/lambentx/lambentrepo/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/lambentx/lambentrepo/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/lambentx/lambentrepo/plugins</datadir>
+        </dir>
+		<dir>
+			<info compressed="false">http://82.165.248.28/bonecrusher/zips/addons.xml</info>
+			<checksum>http://82.165.248.28/bonecrusher/zips/addons.xml.md5</checksum>
+			<datadir zip="true">http://82.165.248.28/bonecrusher/zips/</datadir>
+		</dir>
+        <dir>
+	        <info compressed="false">http://cf368ff.online-server.cloud/bonecrusher/metas/addons.xml</info>
+	        <checksum>http://cf368ff.online-server.cloud/bonecrusher/metas/addons.xml.md5</checksum>
+	        <datadir zip="true">http://cf368ff.online-server.cloud/bonecrusher/metas/</datadir>
+	    </dir>
+        <dir>
+	        <info compressed="false">http://82.165.248.28/bonecrusher/projx/addons.xml</info>
+	        <checksum>http://82.165.248.28/bonecrusher/projx/addons.xml.md5</checksum>
+	        <datadir zip="true">http://82.165.248.28/bonecrusher/projx/</datadir>
+	    </dir>
+        <dir>
+	        <info compressed="false">http://82.165.248.28/bonecrusher/xxxmeta/addons.xml</info>
+	        <checksum>http://82.165.248.28/bonecrusher/xxxmeta/addons.xml.md5</checksum>
+	        <datadir zip="true">http://82.165.248.28/bonecrusher/xxxmeta/</datadir>
+	    </dir>
+        <dir minversion="17.0.0">
+            <info compressed="false">https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml</info>
+            <checksum>https://github.com/primaeval/repository.primaeval/raw/master/krypton/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.github.com/primaeval/repository.primaeval/master/krypton/</datadir>
+        </dir>
+		<dir>
+		    <info compressed="false">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+		</dir>
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+		<dir>
+			<info compressed="false">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml</info>
+			<checksum>https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/addons.xml.md5</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/a4k-openproject/repository.openscrapers/master/zips/</datadir>
+		</dir>
+		<dir>
+            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+        </dir>
+		<dir>
+		    <info>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/master/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/rmrector/repository.rector.stuff/master/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/rmrector/repository.rector.stuff/master/</datadir>
+		</dir>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<summary>lambentx Repository</summary>
+		<description>lambentx Repository</description>
+		<platform>all</platform>
+	</extension>
+</addon>
+<addon id="skin.lambent" version="2.0.0" name="lambent" provider-name="Team lambent">
+    <requires>
+        <import addon="xbmc.gui" version="5.14.0"/>
+        <import addon="script.skinshortcuts" version="1.0.17"/>
+        <import addon="script.skin.helper.colorpicker" version="1.0.13"/>
+        <import addon="script.image.resource.select" version="2.0.4"/>
+    </requires>
+    <extension point="xbmc.gui.skin" debugging="false">
+        <res width="1920" height="1080" aspect="16:9" default="true" folder="16x9" />
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary lang="en">lambent</summary>
+		<description lang="en"></description>
+        <disclaimer lang="en"></disclaimer>
+        <platform>all</platform>
+        <license>CC BY-SA 4.0, GNU GENERAL PUBLIC LICENSE Version 2.0</license>
+        <source></source>
+        <forum></forum>
+        <website></website>
+        <assets>
+            <icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+</addons>
