@@ -6,10 +6,10 @@
 		    <checksum>https://raw.githubusercontent.com/nostromorepo/install/master/plugins/addons.xml.md5</checksum>
 		    <datadir zip="true">https://raw.githubusercontent.com/nostromorepo/install/master/plugins</datadir>
         </dir>
-		 <dir>
-		    <info compressed="false">https://raw.githubusercontent.com/lambentx/lambentrepo/addons.xml</info>
-		    <checksum>https://raw.githubusercontent.com/lambentx/lambentrepo/addons.xml.md5</checksum>
-		    <datadir zip="true">https://raw.githubusercontent.com/lambentx/lambentrepo/plugins</datadir>
+		<dir>
+		    <info compressed="false">https://raw.githubusercontent.com/lambentx/lambentrepo/master/addons.xml</info>
+		    <checksum>https://raw.githubusercontent.com/lambentx/lambentrepo/master/addons.xml.md5</checksum>
+		    <datadir zip="true">https://raw.githubusercontent.com/lambentx/lambentrepo/master/plugins</datadir>
         </dir>
 		<dir>
 			<info compressed="false">http://82.165.248.28/bonecrusher/zips/addons.xml</info>
